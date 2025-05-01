@@ -4,9 +4,9 @@ import MessageList from './components/MessageList';
 import EmptyChatScreen from './components/EmptyChatScreen';
 
 const Home = () => {
-  const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;  
 
-  const ai = new GoogleGenAI({ apiKey });
+
+  const ai = new GoogleGenAI("AIzaSyCJrr1xbbJe3mJtqcm2NxaNNL03apiKuhY");
 
   const [messages, setMessages] = useState([])
   const [userInput, setuserInput] = useState("")
