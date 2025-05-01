@@ -4,7 +4,7 @@ import MessageList from './components/MessageList';
 import EmptyChatScreen from './components/EmptyChatScreen';
 
 const Home = () => {
-  const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;  
+  const apiKey = process.env.GOOGLE_API_KEY;  
 
   const ai = new GoogleGenAI({ apiKey });
 
