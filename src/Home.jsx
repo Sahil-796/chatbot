@@ -6,7 +6,7 @@ import EmptyChatScreen from './components/EmptyChatScreen';
 const Home = () => {
 
 
-  const ai = new GoogleGenAI("AIzaSyCJrr1xbbJe3mJtqcm2NxaNNL03apiKuhY");
+  const ai = new GoogleGenAI({ apiKey: "AIzaSyCJrr1xbbJe3mJtqcm2NxaNNL03apiKuhY" });
 
   const [messages, setMessages] = useState([])
   const [userInput, setuserInput] = useState("")
