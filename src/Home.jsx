@@ -3,10 +3,11 @@ import { GoogleGenAI } from "@google/genai";
 import MessageList from './components/MessageList';
 import EmptyChatScreen from './components/EmptyChatScreen';
 
+
 const Home = () => {
 
 
-  const ai = new GoogleGenAI({ apiKey: "AIzaSyCJrr1xbbJe3mJtqcm2NxaNNL03apiKuhY" });
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
   const [messages, setMessages] = useState([])
   const [userInput, setuserInput] = useState("")
