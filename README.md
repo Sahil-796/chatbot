@@ -1,12 +1,31 @@
-# React + Vite
+# ChatX 🧠💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChatX is a simple, elegant, single-page chatbot application built with **ReactJS** and powered by the **Gemini API** (by Google). It mimics the look and feel of modern messaging apps like WhatsApp, creating a familiar and intuitive chat experience between users and the AI bot.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✨ Minimal and responsive single-page design
+- 🧑‍💻 Real-time chat interface with separated user and bot messages
+- 🤖 Gemini API integration for intelligent AI responses
+- 💬 WhatsApp-style message bubbles for immersive UI
+- ⚡ Fast and smooth UX using React functional components and hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- **ReactJS** – Frontend framework
+- **Gemini API** – AI backend (Google's Large Language Model)
+- **CSS / Tailwind** *(optional)* – For styling and UI layout
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Sahil-796/chatbot.git
+cd chatbot
+npm install
+npm run dev OR npm start
